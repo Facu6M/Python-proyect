@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/05125a81c7.js" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/jpg" href="https://p4.wallpaperbetter.com/wallpaper/770/1022/466/attache-case-briefcase-chrome-metallic-wallpaper-preview.jpg">
+	    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+	<title>Portafolio</title>
+</head>
+<body>
+<aside>
+<div id="welcome-section">
+	<h1>{{ data.bienvenida}}</h1>
+       <h1>Hey Im facu</h1>
+	<a href="#projects">
+<img id="read-more" 
+src="https://ceid.utsa.edu/brincontroconis/wp-content/uploads/sites/51/2020/11/Read-More-Button-Orange.png">
+	</a>
+		</div>
+</aside>
+<main id="projects">
+<h4> some of my proyects </h4> 
+
+<element class="project-tile">
+<div id="cards"> <a target="blank" href="https://facu6m.github.io/News-Center/">
+<h5>News Center </h5> <img class="img" src="https://i.postimg.cc/sgRgFLRL/Screenshot-4.png"> </a> </div>
+
+<div id="cards"> <a target="blank" href="https://facu6m.github.io/Web-Form">
+<h5>Survey Form </h5> <img class="img" src="https://i.postimg.cc/K8xYgJMy/Survey-Form.png"> </a> </div>
+
+<div id="cards"> <a target="blank" href="https://facu6m.github.io/Company-Page">
+<h5>Company Page </h5>  <img class="img" src="https://i.postimg.cc/V6jTMBt3/Company-page.png"> </a> </div>
+
+<div id="cards"> <a target="blank" href="https://facu6m.github.io/Page-of-documentation/">
+<h5>Documentation CSS </h5> <img class="img" src="https://i.postimg.cc/wMQCKcTh/Documentation-css.png"> </a> </div>
+
+<div id="cards"> <a target="blank" href="https://facu6m.github.io/Web-Page-Food/">
+<h5>Fast Food Page</h5> <img class="img" src="https://i.postimg.cc/prLZTDJQ/Screenshot-2.png"> </a> </div>
+	
+<div id="cards"> <a target="blank" href="https://facu6m.github.io/heytics"/>
+<h5>Heytics vercel app</h5> <img class="img" src="https://i.postimg.cc/2SQn1VYz/Screenshot-1.png"> </a> </div>
+
+<div id="button" ><a target="_blank" href="https://github.com/Facu6M?tab=repositories"><p id="p">show all</p>
+</a></div>
+</element>
+
+</main>
+
+<figure id="figure">
+       <div id="container-footer">
+<h6> Let's work together ..</h6>
+              <ul id="link">
+                     <li> <a class="fa-brands fa-twitter" href="https://twitter.com/facuumelita">Twitter</a> </li>
+                     <li> <a class="fa-brands fa-github" href="https://github.com/Facu6M">GitHub</a> </li>
+                     <li class="fa-solid fa-envelope-circle-check"  id="email" href="">
+                      Email </li>
+                     <li class="fa-solid fa-signal " id="phone" href=""> Phone</a> </li>
+              </ul>
+       </div>
+</figure>
+
+
+<footer id="footer">
+       <div>
+              <p> This is my personal portafolio, thanks for watching. </p>
+       </div>
+</footer>
+	    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
